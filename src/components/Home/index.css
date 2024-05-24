@@ -1,0 +1,61 @@
+.BgHome {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  min-height: 85vh;
+}
+
+.HomeHead {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1e293b;
+  margin: 0px;
+}
+
+.CoursesListUl {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.CourseLi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.CourseLogoImg {
+  height: 45px;
+  width: 45px;
+  margin: 0px;
+  margin-right: 10px;
+}
+
+.CourseName {
+  color: #1e293b;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0px;
+}
+.Link {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .CourseLi {
+    margin: 35px;
+  }
+
+  .CourseLogoImg {
+    height: 65px;
+    width: 65px;
+    margin-right: 15px;
+  }
+
+  .CourseName {
+    font-size: 27px;
+  }
+}

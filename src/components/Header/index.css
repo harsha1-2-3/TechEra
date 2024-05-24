@@ -1,0 +1,27 @@
+.BgHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 15vh;
+  background-color: #f1f5f9;
+  padding-left: 20px;
+}
+
+.WebsiteLogo {
+  height: 50px;
+  width: 150px;
+}
+.Link {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .BgHeader {
+    padding-left: 40px;
+  }
+
+  .WebsiteLogo {
+    height: 70px;
+    width: 210px;
+  }
+}
